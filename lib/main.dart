@@ -82,6 +82,7 @@ class _HomeState extends State<Home> {
 
                 TextField( 
                   controller: _installment,
+                  keyboardType: TextInputType.number,
                   decoration: InputDecoration( 
                       labelText: "จำนวนงวด 6 , 10 , 24",
                       prefixIcon: Icon(Icons.calculate),
